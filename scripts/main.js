@@ -1,25 +1,9 @@
-const fishObj [
-{
-    name: "Blinky Klaus"
-    species: "Mutated Goldfish"
-    length: 8
-    harvestloc: "Polluted River"
-    food: "Radioactive Sludge"
-},
-{
-    name: "Ripster"
-    species: "Human/Shark"
-    length: 10
-    harvestloc: "Fission City"
-    food: "Hamburgers"
-},
-{
-    
-    name: 
-    species: 
-    length: 
-    harvestloc: 
-    food: 
-    
-}
-]
+import { FishList } from "./fish/fishList.js"
+import { locationList } from "./locations/locationList.js"
+import { tipList } from "./tips/tipList.js"
+
+FishList();
+locationList();
+tipList();
+
+
